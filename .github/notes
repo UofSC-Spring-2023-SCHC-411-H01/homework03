@@ -1,0 +1,2 @@
+This setup just lets the exit code of Lean take care of triggering the autograding. 
+Lean sends an nonzero exit code in the presence of a warning or an error.

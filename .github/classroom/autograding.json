@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Checking for warnings or errors",
+        "setup": "",
+        "run": "lake env lean Quiz02.lean",
+        "input" : "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": 1
+      }
+    ]
+  }
