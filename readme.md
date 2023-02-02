@@ -1,4 +1,4 @@
-## Homework Template
+## Quantifiers and equality
 
-This contains the .devcontainer files for Codespaces and the .github files for 
-Classroom. 
+This assignment gives you practice with proofs involving quantifiers and 
+equality by working through the example of partial orders. 
