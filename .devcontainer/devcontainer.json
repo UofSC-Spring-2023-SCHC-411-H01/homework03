@@ -39,5 +39,5 @@
 	"remoteEnv": {
         	"PATH" : "${containerEnv:PATH}:/home/vscode/.elan/bin:/home/vscode/.local/bin"
 	},
-	"updateContentCommand": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain none --no-modify-path -y && lake update"
+	"updateContentCommand": "curl https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -sSf | sh -s -- --default-toolchain none --no-modify-path -y && lake update && lake exe cache get!"
 }
